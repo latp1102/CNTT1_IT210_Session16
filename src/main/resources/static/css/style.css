@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #cccccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 6px 12px;
+    background-color: #2d6cdf;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.error {
+    color: #b00020;
+}
+
+.success {
+    color: #0f7d34;
+}
+
+.pagination a {
+    margin-right: 6px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    font-weight: bold;
+}
+
+.qty-input {
+    width: 60px;
+}
+
+.search-form input,
+.search-form select {
+    margin-right: 6px;
+}
+
+.product-thumb {
+    max-width: 80px;
+    height: auto;
+}
